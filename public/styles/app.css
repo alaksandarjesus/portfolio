@@ -1,0 +1,39 @@
+body{
+    font-family: "Inter";
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Montserrat";
+}
+
+.container {
+  max-width: 95%;   /* You can adjust */
+   max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;  /* ~16px */
+  padding-right: 1rem;
+}
+
+img.developer{
+    max-height: 300px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#projects .has-bg-image{
+  height:250px;
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#mobileMenu{
+  position: absolute;
+    top: 75px;
+    right: 0px;
+    width: 100%;
+    background: white;
+    gap:1rem;
+}
