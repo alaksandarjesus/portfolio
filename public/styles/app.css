@@ -37,3 +37,11 @@ a {
     background: white;
     gap:1rem;
 }
+
+section h1,
+article h1,
+aside h1,
+nav h1 {
+  font-size: 2rem;
+}
+
